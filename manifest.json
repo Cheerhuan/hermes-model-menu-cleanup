@@ -1,0 +1,28 @@
+{
+  "name": "hermes-model-menu-cleanup",
+  "version": "1.0.0",
+  "description": "Diagnose and fix cluttered Hermes Agent /model menus — eliminates duplicate providers, ghost entries, and models.dev pollution.",
+  "author": "Cheerhuan",
+  "license": "MIT",
+  "platforms": ["hermes", "openclaw"],
+  "skills": [
+    {
+      "name": "hermes-model-menu-cleanup",
+      "path": "SKILL.md",
+      "description": "Comprehensive /model menu audit and repair for Hermes Agent",
+      "triggers": [
+        "/model menu has too many unused models",
+        "duplicate uppercase/lowercase providers in model picker",
+        "ghost entries with 0 models",
+        "custom: prefix duplicates"
+      ]
+    }
+  ],
+  "scripts": {
+    "audit": "python3 scripts/audit-model-menu.py"
+  },
+  "dependencies": {
+    "python": ">=3.8",
+    "packages": ["pyyaml"]
+  }
+}
