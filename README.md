@@ -1,5 +1,7 @@
 # Hermes Model Menu Cleanup 🧹
 
+![Fish Hacker](assets/fish-hacker.jpg)
+
 **Hermes Model Menu Cleanup** is a diagnostic and repair toolkit for the Hermes Agent `/model` menu. When your model picker is cluttered with hundreds of useless entries, duplicate providers (upper/lowercase variants), or ghost entries showing 0 models — this tool precisely identifies the root cause and provides the exact patches needed.
 
 ## 🌟 Key Features
